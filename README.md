@@ -6,7 +6,7 @@ PriceHound is a grocery price-comparison app that helps shoppers find lower food
 
 - Cincinnati, Ohio (45202) pilot is live.
 - Real Kroger online pickup prices are fetched through Kroger’s official API, cached locally in SQLite, and shown with timestamps and a note that prices may differ in-store.
-- Weekly-ad sections link shoppers to participating retailers’ own published pages instead of redistributing ad data.
+- Weekly-ad sections link shoppers to each retailer's official weekly ad (hosted via Flipp) instead of redistributing ad data.
 - A small pet-deals pilot provides retailer link-outs for demand testing.
 - Beta testing is underway with friends and family.
 - PriceHound Plus currently has a one-time $3.99 checkout for the ad-free tier as it exists today. Automatic recurring billing and roadmap features are not represented as current functionality.

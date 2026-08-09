@@ -962,7 +962,7 @@ function StoresNearYou() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Live pilot — official store ad links (permission-free fallback)     */
+/* Live pilot — official weekly ads via Flipp (permission-free fallback) */
 /* ------------------------------------------------------------------ */
 
 function PilotSection() {
@@ -988,11 +988,11 @@ function PilotSection() {
               <span className="rounded bg-sky-600 px-1.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-white">
                 Live
               </span>{" "}
-              Real links, real stores — {PILOT_LABEL}
+              Official weekly ads, via Flipp — {PILOT_LABEL}
             </p>
             <p className="mt-0.5 text-sm leading-relaxed text-sky-900/80">
-              Official store ad pages — PriceHound links to each store's
-              published ad; we don't republish prices.
+              Flipp hosts each retailer's official weekly ad; PriceHound
+              points you there and doesn't republish prices.
             </p>
           </div>
         </div>
@@ -1002,9 +1002,9 @@ function PilotSection() {
             Live pilot — {PILOT_LABEL} ({PILOT_ZIP})
           </h2>
           <p className="mt-1.5 text-sm text-slate-500">
-            This week's official weekly-ad deals, straight from each store.
-            We point you to the store's own page — the store sets the prices,
-            and the ad updates itself every week.
+            This week's official weekly-ad deals, hosted on Flipp for each
+            retailer. We point you to the ad — we don't republish prices, and
+            Flipp asks for your zip or region to show the local circular.
           </p>
         </div>
 
@@ -1054,9 +1054,9 @@ function PilotSection() {
         </div>
 
         <p className="animate-rise-2 mt-6 text-xs text-slate-400">
-          These are real outbound links to each store's official weekly-ad
-          page — PriceHound does not scrape or republish ad content. Stores may
-          ask for a zip code or store location when the page opens.
+          These are real outbound links to each retailer's official weekly ad
+          on Flipp — PriceHound does not scrape or republish ad content. Flipp
+          may ask for a zip code or region when the page opens.
         </p>
       </div>
     </section>
